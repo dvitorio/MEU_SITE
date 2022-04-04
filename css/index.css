@@ -1,0 +1,12 @@
+.masthead-avatar{
+     width: 200px;
+     height: 230px;
+     border-radius: 50%;
+}
+.nav-link{
+     text-transform: none;
+}
+.redesSociais a{
+     font-size: 10px !important;
+}
+
