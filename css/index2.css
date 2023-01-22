@@ -5,7 +5,7 @@ html{
 }
 
 body{
-     background-color: #f5f5f5;
+     background-color: #1d1b1b;
 }
 
 *{
@@ -44,6 +44,8 @@ body{
      transform: scale(1.1);
 }
 
+
+
 .coverSite{height: 85vh}
 
 .coverPhoto{max-width: 600px}
@@ -54,7 +56,12 @@ body{
 
 .coverText h4{font-size: 2rem}
 
-.whoIAm{min-height: 100vh}
+.whoIAm,
+.whoIAmDescription
+{
+     background-color: #1d1b1b;
+     height: auto;
+}
 
 .whoIAmPhoto{
      width: 12rem;
@@ -70,8 +77,8 @@ body{
 .whoIAmDescription p{line-height: 25px}
 
 .abilities{
-     background-color: #f5f5f5;
-     height: 100vh;
+     background-color: #1d1b1b;
+     min-height: 100vh;
 }
 
 .ability{
@@ -88,7 +95,7 @@ body{
 }
 
 .project{
-     max-width: 45vw;
+     max-width: 40vw;
      border-radius: 8px;
 }
 
@@ -102,6 +109,7 @@ body{
      width: 100%;
      border-radius: 8px;
 }
+
 
 
 
@@ -121,4 +129,5 @@ body{
      .ability{
           width: 35vw;
      }
+
 }
