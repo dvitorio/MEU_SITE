@@ -35,8 +35,15 @@
      min-height: 85vh;
 }
 
+.coverText{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
 .coverText h1{
-     font-size: 4rem;
+     font-size: 4.5rem;
 }
 
 .coverText h3{
@@ -55,7 +62,13 @@
 
 .whoIAm{
      background-color: #242222 !important;
-     height: 80vh;
+     min-height: 80vh;
+}
+
+.whoIAm p{
+     letter-spacing: 1px;
+     line-height: 30px;
+     animation: texto 2s linear;
 }
 
 .sectionTitle{
