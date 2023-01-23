@@ -27,7 +27,7 @@
      <div class="principalContainer mx-auto pb-5">
 
           <!--Barra de navegação-->
-          <nav class="navbar navbar-expand-lg navbar-dark">
+          <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
                <div class="container-fluid">
                     <img src="/img/meuLogo.png" class="d-block img mx-auto" />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -37,22 +37,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                          <ul class="navbar-nav">
                               <li class="nav-item">
-                                   <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                   <a class="nav-link mx-5" href="#whoIAm">Quem sou eu</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link" href="#">Quem sou eu</a>
+                                   <a class="nav-link mx-5" href="#abilities">Habilidades</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link" href="#">Habilidades</a>
+                                   <a class="nav-link mx-5" href="#projects">Projetos</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link" href="#">Projetos</a>
+                                   <a class="nav-link mx-5" href="#experiences">Experiências</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link" href="#">Experiências</a>
-                              </li>
-                              <li class="nav-item">
-                                   <button class="btn btn-primary" href="#">Contate-me!</button>
+                                   <a class="text-white" href="#formulario"><button class="btn btn-primary" id="contactMe">Contate-me!</a></button>
                               </li>
                          </ul>
                     </div>
@@ -60,11 +57,15 @@
           </nav>
 
           <!--Capa do site-->
-          <div class="container-fluid coverSite p-3 rounded">
+          <div class="container-fluid coverSite p-3 rounded" id="coverSite">
                <div class="row">
                     <div class="animate__animated animate__fadeInLeftBig col-xl-4 container coverText mx-auto m-3">
                          <h1 class="my-2 text-center text-white">Daniel Vitorio</h1>
                          <h3 class="my-2 text-center text-white">Analista e Desenvolvedor de Sistemas</h3>
+                         <a class="btn btn-primary" target="_blank"
+                              href="https://drive.google.com/file/d/1QypCbfeTPnf21bBTLfddH-yKGya5_UFj/view?usp=sharing"
+                              download><i class="fa-solid fa-file-arrow-down"></i> Baixar currículo
+                         </a>
                     </div>
                     <div class="animate__animated animate__fadeInRightBig col-xl-8 coverImage mx-auto">
                          <img class="d-block img mx-auto rounded" src="/img/coverImage.png" alt="">
@@ -73,33 +74,44 @@
           </div>
 
           <!--Seção "Quem sou eu"-->
-          <div class="container my-5 pb-4 rounded whoIAm">
+          <div class="container my-5 pb-4 rounded whoIAm" id="whoIAm">
                <h1 class="my-2 pt-4 text-center text-white">Quem sou eu</h1>
                <div class="myPhoto mt-3 mx-auto">
                     <img class="d-block img mx-auto" src="/img/eu.jpg" alt="" width="150">
                </div>
                <p class="animate__animated animate__fadeIn mt-3 px-3 text-center text-light">
-                    Olá, meu nome é <b>Daniel Vitorio</b> e sou analista de sistemas e desenvolvedor de software, com foco em front end. 
-                    Também sou graduado em Administração de Empresas e licenciado em Matemática. Embora sempre tenha gostado de Informática, 
-                    meu foco inicialmente não incluía a programação (eu era um entusiasta e exímio usuário das ferramentas computacionais, 
-                    como MS-Access, Excel, PowerPoint e Word). 
+                    Olá, meu nome é <b>Daniel Vitorio</b> e sou analista de sistemas e desenvolvedor de software, com
+                    foco em front end.
+                    Também sou graduado em Administração de Empresas e licenciado em Matemática. Embora sempre tenha
+                    gostado de Informática,
+                    meu foco inicialmente não incluía a programação (eu era um entusiasta e exímio usuário das
+                    ferramentas computacionais,
+                    como MS-Access, Excel, PowerPoint e Word).
                </p>
                <p class="animate__animated animate__fadeIn mt-3 px-3 text-center text-light">
-                    Eu gostava muito mais da parte de hardware, e entendia de tudo que fizesse um computador funcionar, exceto pelos softwares. Gostava e achava o máximo alguém saber 
-                    programar um computador, mas não entendia nada de programação, sequer da lógica por trás dos panos; mas sabia montar, desmontar e até consertar algumas peças.  
-                    Foi apenas depois de conhecer um pouco da linguagem C que eu passei a admirar todo o potencial 
-                    que a programação e suas linguagens poderiam agregar em termos de produtividade e facilitação de rotinas, que realmente decidi
-                    mudar de profissão e me tornar um desenvolvedor de software. 
+                    Eu gostava muito mais da parte de hardware, e entendia de tudo que fizesse um computador funcionar,
+                    exceto pelos softwares. Gostava e achava o máximo alguém saber
+                    programar um computador, mas não entendia nada de programação, sequer da lógica por trás dos panos;
+                    mas sabia montar, desmontar e até consertar algumas peças.
+                    Foi apenas depois de conhecer um pouco da linguagem C que eu passei a admirar todo o potencial
+                    que a programação e suas linguagens poderiam agregar em termos de produtividade e facilitação de
+                    rotinas, que realmente decidi
+                    mudar de profissão e me tornar um desenvolvedor de software.
                </p>
                <p class="animate__animated animate__fadeIn mt-3 px-3 mb-3 text-center text-light">
-                    Atualmente, tenho focado em tecnologias ligadas ao front end, como HTML, CSS, Bootstrap, Javascript, jQuery, React JS, Vue JS e Angular JS; possuo também
-                    conhecimentos em Java, SQL (MySQL e PostGres), linguagem C e estou estudando mais profundamente o superset de JS, o Typescript. Pretendo me tornar um desenvolvedor full stack, com especialidade na automação
-                    de rotinas e procedimentos ligados ao front end, por achar mais desafiador e encantador ao mesmo tempo. 
+                    Atualmente, tenho focado no aprendizado de tecnologias ligadas ao front end, como HTML, CSS, Bootstrap, Javascript,
+                    jQuery, e ao aperfeiçoamento de outras (React JS, Vue JS e Angular JS); possuo também
+                    conhecimentos em Java, SQL (MySQL e PostGres), linguagem C e estou estudando mais profundamente o
+                    superset de JS, o Typescript. Pretendo me tornar um desenvolvedor full stack, com especialidade na
+                    automação
+                    de rotinas e procedimentos ligados ao front end, por achar mais desafiador e encantador ao mesmo
+                    tempo.
                </p>
+               <a href="#navbar"><i class="fa-solid fa-angle-up text-white"></i></a>
           </div>
 
           <!--Seção "Habilidades"-->
-          <div class="abilities container mt-5 mx-auto rounded">
+          <div class="abilities container mt-5 mx-auto rounded" id="abilities">
                <div class="m-2 sectionTitle row">
                     <h1 class="my-3 text-center text-white mx-auto">Habilidades técnicas</h1>
                </div>
@@ -153,10 +165,11 @@
                          </p>
                     </div>
                </div>
+               <a href="#navbar"><i class="fa-solid fa-angle-up text-white"></i></a>
           </div>
 
           <!--Seção de Projetos-->
-          <div class="my-5 projects">
+          <div class="my-5 projects" id="projects">
                <div class="m-2 sectionTitle row">
                     <h1 class="my-2 text-center text-white mx-auto">Meus projetos</h1>
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -213,51 +226,94 @@
                          </button>
                     </div>
                </div>
+               <a href="#navbar"><i class="fa-solid fa-angle-up text-white"></i></a>
+          </div>
+
+          <!--Seção de Experiências-->
+          <div class="experiences mx-auto my-5" id="experiences">
+               <div class="m-2 sectionTitle row">
+                    <h4 class="my-3 text-center text-white mx-auto">Experiências profissionais</h4>
+               </div>
+               <div class="row">
+                    <div class="animate__animated animate__fadeInLeftBig col-xl-6 experience mb-5 mx-auto rounded">
+                         <img class="d-block img mb-5 mx-auto" src="/img/smart4.png" alt="Logomarca Smart4">
+                         <h5 class="mb-4 text-center text-white"><b>Analista e Desenvolvedor de Sistemas Júnior</b></h5>
+                         <p class="text-center text-white">Planejamento, construção e manutenção de sistemas informatizados; correção de bugs;
+                              revisão de código; construção e implementação de interfaces gráficas e de interação com usuário; elaboração de
+                              relatórios para impressão; consulta em banco de dados; elaboração de documentação de softwares.</br>
+                              <b>Tecnologias utilizadas:</b>
+                              <p class="text-center text-white">HTML5, CSS3, Javascript, Angular JS, Java, Spring Boot, Node JS, MySQL</p>   
+                         </p>
+                    </div>
+                    <div class="animate__animated animate__fadeInRightBig col-xl-6 experience mb-5 mx-auto rounded">
+                         <img class="d-block img mb-4 mx-auto" src="/img/ford.png" alt="Logotmarca Ford" width="150">
+                         <h5 class="mb-4 text-center text-white"><b>Desenvolvedor Front End (Bolsista)</b></h5>
+                         <p class="text-center text-white">Planejamento, construção e manutenção de sistemas informatizados; correção de bugs;
+                              revisão de código; construção e implementação de interfaces gráficas e de interação com usuário; elaboração de
+                              relatórios para impressão; consulta em banco de dados; elaboração de documentação de softwares.</br>
+                              <b>Tecnologias utilizadas:</b>
+                              <p class="text-center text-white">HTML5, CSS3, Javascript, Angular JS, Java, Spring Boot, Node JS, MySQL</p>   
+                         </p>
+                    </div>
+               </div>
+               <a href="#navbar"><i class="fa-solid fa-angle-up text-white"></i></a>
           </div>
 
           <!--Seção do formulário de contato-->
-          <div class="container formulario mt-5 mx-auto">
+          <div class="container formulario mt-5 mx-auto" id="formulario">
                <div class="m-2 sectionTitle row">
-                    <h4 class="my-3 text-center text-white mx-auto">Preencha o formulário para saber mais sobre meus projetos</h4>
+                    <h4 class="my-3 text-center text-white mx-auto">Preencha o formulário para saber mais sobre meus
+                         projetos</h4>
                </div>
-                    <div class="row">
-                         <div class="col-xl-8 p-3">
-                              <label class="text-white form-label" for="nome">Nome</label>
-                              <input class="form-control" type="text" id="nome">
-                         </div>
-                         <div class="col-xl-4 p-3">
-                              <label class="text-white form-label" for="nome">Telefone</label>
-                              <input class="form-control" type="tel" id="nome">
-                         </div>
+               <div class="row">
+                    <div class="col-xl-8 p-3">
+                         <label class="text-white form-label" for="nome">Nome</label>
+                         <input class="form-control" type="text" id="nome">
                     </div>
-                    <div class="row">
-                         <div class="col">
-                              <label class="text-white form-label" for="email">E-mail</label>
-                              <input class="form-control" type="email" id="email">
-                         </div>
-                    </div>
-                    <div class="row">
-                         <div class="col p-3">
-                              <label class="form-label text-white" for="">Informações</label>
-                              <textarea class="form-control" name="" id="" cols="30" rows="7"></textarea>
-                              <button class="btn btn-primary my-3">Enviar informações</button>
-                         </div>
+                    <div class="col-xl-4 p-3">
+                         <label class="text-white form-label" for="nome">Telefone</label>
+                         <input class="form-control" type="tel" id="nome">
                     </div>
                </div>
+               <div class="row">
+                    <div class="col-xl-4">
+                         <label class="text-white form-label" for="interest">Área de interesse</label>
+                         <select class="form-control" name="" id="">
+                              <option value=""></option>
+                              <option value="">Front end</option>
+                              <option value="">Back end</option>
+                              <option value="">WebApps</option>
+                              <option value="">Sistemas</option>
+                         </select>
+                    </div>
+                    <div class="col-xl-8">
+                         <label class="text-white form-label" for="email">E-mail</label>
+                         <input class="form-control" type="email" id="email">
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col p-3">
+                         <label class="form-label text-white" for="">Informações</label>
+                         <textarea class="form-control" name="" id="" cols="30" rows="7"></textarea>
+                         <button class="btn btn-primary my-3">Enviar informações</button>
+                    </div>
+               </div>
+               <a href="#navbar"><i class="fa-solid fa-angle-up text-white"></i></a>
           </div>
+     </div>
 
-          <!--Seção do Rodapé-->
-          <div class="footer p-2 rodape">
-               <h6 class="text-center text-white">Todos os direitos reservados. &copy; 2023</h6>
-               <h6 class="text-center text-white">Desenvolvido por <a href="">Daniel Vitorio</a></h6>
-               <div class="col-xl-2 container midias mx-auto p-2">
-                    <i class="fa-brands fa-linkedin-in mx-2 text-secondary"></i>
-                    <i class="fa-brands fa-github mx-2 text-secondary"></i>
-                    <i class="fa-regular fa-envelope mx-2 text-secondary"></i>
-                    <i class="fa-brands fa-whatsapp mx-2 text-secondary"></i>
-                    <i class="fa-brands fa-instagram mx-2 text-secondary"></i>
-               </div>
+     <!--Seção do Rodapé-->
+     <div class="footer p-2 rodape">
+          <h6 class="text-center text-white">Todos os direitos reservados. &copy; 2023</h6>
+          <h6 class="text-center text-white">Desenvolvido por <a href="">Daniel Vitorio</a></h6>
+          <div class="col-xl-2 container midias mx-auto p-2">
+               <i class="fa-brands fa-linkedin-in mx-2 text-secondary"></i>
+               <i class="fa-brands fa-github mx-2 text-secondary"></i>
+               <i class="fa-regular fa-envelope mx-2 text-secondary"></i>
+               <i class="fa-brands fa-whatsapp mx-2 text-secondary"></i>
+               <i class="fa-brands fa-instagram mx-2 text-secondary"></i>
           </div>
+     </div>
      </div>
 
 
