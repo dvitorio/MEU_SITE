@@ -9,7 +9,8 @@
 
 .principalContainer{
      background-color: #111111 !important;
-     height: fit-content;
+     min-height: 100vh;
+     width: 100vw;
 }
 
 .navbar{
@@ -107,8 +108,16 @@
      height: 100vh;
 }
 
+.formulario{
+     background-color: #242222 !important;
+     border-radius: 10px;
+     width: 70vw !important;
+     min-height: 80vh;
+}
+
 .rodape{
      background-color: #242222 !important;
+     width: 100vw;
      min-height: 6rem;
 }
 
@@ -142,5 +151,8 @@
      }
      .ability{
           max-width: 100vw;
+     }
+     .formulario{
+          width: 98vw !important;
      }
 }
