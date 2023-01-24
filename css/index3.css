@@ -142,8 +142,6 @@ html{scroll-behavior: smooth}
      background-color: #242222 !important;
      max-width: 40vw;
      min-height: 70vh;
-     border: 1px solid rgb(19, 18, 18) !important;
-     box-shadow: 3px 6px 23px rgb(19, 18, 18);
 }
 
 .experience img{
@@ -156,7 +154,7 @@ html{scroll-behavior: smooth}
 
 .experience:hover{
      border-radius: 10px !important;
-     transform: scale(1.1) !important;
+     transform: scale(1.05) !important;
 }
 
 .formulario{

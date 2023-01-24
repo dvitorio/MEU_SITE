@@ -18,7 +18,8 @@
      <link rel="stylesheet" href="/css/animations.css">
      <!--Animate CSS-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
+     <!--AOS-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -74,12 +75,12 @@
           </div>
 
           <!--Seção "Quem sou eu"-->
-          <div class="container my-5 pb-4 rounded whoIAm" id="whoIAm">
+          <div data-aos="fade-up" class="container my-5 pb-4 rounded whoIAm" id="whoIAm">
                <h1 class="my-2 pt-4 text-center text-white">Quem sou eu</h1>
                <div class="myPhoto mt-3 mx-auto">
                     <img class="d-block img mx-auto" src="/img/eu.jpg" alt="" width="150">
                </div>
-               <p class="animate__animated animate__fadeIn mt-3 px-3 text-center text-light">
+               <p data-aos="fade-up" class="mt-3 px-3 text-center text-light">
                     Olá, meu nome é <b>Daniel Vitorio</b> e sou analista de sistemas e desenvolvedor de software, com
                     foco em front end.
                     Também sou graduado em Administração de Empresas e licenciado em Matemática. Embora sempre tenha
@@ -88,7 +89,7 @@
                     ferramentas computacionais,
                     como MS-Access, Excel, PowerPoint e Word).
                </p>
-               <p class="animate__animated animate__fadeIn mt-3 px-3 text-center text-light">
+               <p data-aos="fade-up" class="mt-3 px-3 text-center text-light">
                     Eu gostava muito mais da parte de hardware, e entendia de tudo que fizesse um computador funcionar,
                     exceto pelos softwares. Gostava e achava o máximo alguém saber
                     programar um computador, mas não entendia nada de programação, sequer da lógica por trás dos panos;
@@ -98,7 +99,7 @@
                     rotinas, que realmente decidi
                     mudar de profissão e me tornar um desenvolvedor de software.
                </p>
-               <p class="animate__animated animate__fadeIn mt-3 px-3 mb-3 text-center text-light">
+               <p data-aos="fade-up" class="mt-3 px-3 mb-3 text-center text-light">
                     Atualmente, tenho focado no aprendizado de tecnologias ligadas ao front end, como HTML, CSS, Bootstrap, Javascript,
                     jQuery, e ao aperfeiçoamento de outras (React JS, Vue JS e Angular JS); possuo também
                     conhecimentos em Java, SQL (MySQL e PostGres), linguagem C e estou estudando mais profundamente o
@@ -111,27 +112,27 @@
           </div>
 
           <!--Seção "Habilidades"-->
-          <div class="abilities container mt-5 mx-auto rounded" id="abilities">
+          <div data-aos="zoom-in" class="abilities container mt-5 mx-auto rounded" id="abilities">
                <div class="m-2 sectionTitle row">
                     <h1 class="my-3 text-center text-white mx-auto">Habilidades técnicas</h1>
                </div>
                <div class="containerAbility mx-auto row">
-                    <div class="animate__animated animate__fadeInRightBig ability col col-xl-3 m-1 rounded">
+                    <div data-aos="fade-right" class="ability col col-xl-3 m-1 rounded">
                          <img class="d-block img mx-auto" src="/img/html5.png" alt="">
                          <p class="mt-3 text-center text-white">HTML5 para estruturação das páginas e de sistemas web
                          </p>
                     </div>
-                    <div class="animate__animated animate__fadeInRightBig ability col col-xl-3 m-1 rounded">
+                    <div data-aos="fade-up" class="ability col col-xl-3 m-1 rounded">
                          <img class="d-block img mx-auto" src="/img/css3.png" alt="">
                          <p class="mt-3 text-center text-white">CSS3 para formatação e estilização do conteúdo e das
                               páginas/sistemas web</p>
                     </div>
-                    <div class="animate__animated animate__fadeInLeftBig ability col col-xl-3 m-1 rounded">
+                    <div data-aos="fade-left" class="ability col col-xl-3 m-1 rounded">
                          <img class="d-block img mx-auto" src="/img/javascript.png" alt="">
                          <p class="mt-3 text-center text-white">Interatação e dinamismo nas páginas e sistemas com
                               Javascript</p>
                     </div>
-                    <div class="animate__animated animate__fadeInLeftBig ability col col-xl-3 m-1 rounded">
+                    <div data-aos="fade-left" class="ability col col-xl-3 m-1 rounded">
                          <img class="d-block img mx-auto" src="/img/react.png" alt="">
                          <p class="mt-3 text-center text-white">Otimização de páginas com a melhor biblioteca
                               de construção de interfaces.
@@ -139,26 +140,26 @@
                     </div>
                </div>
                <div class="containerAbility mx-auto row">
-                    <div class="animate__animated animate__fadeInLeftBig ability col col-xl-3 m-1 rounded">
+                    <div data-aos="fade-right" class="ability col col-xl-3 m-1 rounded">
                          <img class="d-block img mx-auto" src="/img/bootstrap.png" alt="">
                          <p class="mt-3 text-center text-white">O melhor framework para estilização e prototipação de
                               páginas e sistemas.
                          </p>
                     </div>
-                    <div class="animate__animated animate__fadeInLeftBig ability col col-xl-3 m-1 rounded">
+                    <div data-aos="fade-up" class="animate__animated animate__fadeInLeftBig ability col col-xl-3 m-1 rounded">
                          <img class="d-block img mx-auto" src="/img/nodejs.png" alt="">
                          <p class="mt-3 text-center text-white"> Javascript do lado do servidor, permitindo
                               aplicações instantâneas e leves no back end.
                          </p>
                     </div>
-                    <div class="animate__animated animate__fadeInLeftBig ability col col-xl-3 m-1 rounded">
+                    <div data-aos="fade-left" class="animate__animated animate__fadeInLeftBig ability col col-xl-3 m-1 rounded">
                          <img class="d-block img mx-auto" src="/img/java.png" alt="">
                          <p class="mt-3 text-center text-white">Uma das melhores e mais poderosas linguagens de
                               programação, principalmente na
                               orientação a objetos.
                          </p>
                     </div>
-                    <div class="animate__animated animate__fadeInLeftBig ability col col-xl-3 m-1 rounded">
+                    <div data-aos="fade-left" class="animate__animated animate__fadeInLeftBig ability col col-xl-3 m-1 rounded">
                          <img class="d-block img mx-auto" src="/img/spring.png" alt="">
                          <p class="mt-3 text-center text-white">Um framework para acelerar a produção e manutenção de
                               aplicações back end feitas em Java
@@ -169,7 +170,7 @@
           </div>
 
           <!--Seção de Projetos-->
-          <div class="my-5 projects" id="projects">
+          <div data-aos="fade-up" class="my-5 projects" id="projects">
                <div class="m-2 sectionTitle row">
                     <h1 class="my-2 text-center text-white mx-auto">Meus projetos</h1>
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -235,7 +236,7 @@
                     <h4 class="my-3 text-center text-white mx-auto">Experiências profissionais</h4>
                </div>
                <div class="row">
-                    <div class="animate__animated animate__fadeInLeftBig col-xl-6 experience mb-5 mx-auto rounded">
+                    <div data-aos="flip-up" class="col-xl-6 experience mb-5 mx-auto rounded">
                          <img class="d-block img mb-5 mx-auto" src="/img/smart4.png" alt="Logomarca Smart4">
                          <h5 class="mb-4 text-center text-white"><b>Analista e Desenvolvedor de Sistemas Júnior</b></h5>
                          <p class="text-center text-white">Planejamento, construção e manutenção de sistemas informatizados; correção de bugs;
@@ -245,7 +246,7 @@
                               <p class="text-center text-white">HTML5, CSS3, Javascript, Angular JS, Java, Spring Boot, Node JS, MySQL</p>   
                          </p>
                     </div>
-                    <div class="animate__animated animate__fadeInRightBig col-xl-6 experience mb-5 mx-auto rounded">
+                    <div data-aos="flip-down" class="col-xl-6 experience mb-5 mx-auto rounded">
                          <img class="d-block img mb-4 mx-auto" src="/img/ford.png" alt="Logotmarca Ford" width="150">
                          <h5 class="mb-4 text-center text-white"><b>Desenvolvedor Front End (Bolsista)</b></h5>
                          <p class="text-center text-white">Planejamento, construção e manutenção de sistemas informatizados; correção de bugs;
@@ -260,30 +261,30 @@
           </div>
 
           <!--Seção do formulário de contato-->
-          <div class="container formulario mt-5 mx-auto" id="formulario">
+          <div data-aos="fade-up" class="container formulario mt-5 mx-auto" id="formulario">
                <div class="m-2 sectionTitle row">
                     <h4 class="my-3 text-center text-white mx-auto">Preencha o formulário para saber mais sobre meus
                          projetos</h4>
                </div>
                <div class="row">
                     <div class="col-xl-8 p-3">
-                         <label class="text-white form-label" for="nome">Nome</label>
-                         <input class="form-control" type="text" id="nome">
+                         <label class="text-white form-label" for="name">Nome</label>
+                         <input class="form-control" type="text" id="name">
                     </div>
                     <div class="col-xl-4 p-3">
-                         <label class="text-white form-label" for="nome">Telefone</label>
-                         <input class="form-control" type="tel" id="nome">
+                         <label class="text-white form-label" for="phone">Telefone</label>
+                         <input class="form-control" type="tel" id="phone">
                     </div>
                </div>
                <div class="row">
                     <div class="col-xl-4">
-                         <label class="text-white form-label" for="interest">Área de interesse</label>
-                         <select class="form-control" name="" id="">
+                         <label class="text-white form-label" for="interestArea">Área de interesse</label>
+                         <select class="form-control" name="" id="interestArea">
                               <option value=""></option>
-                              <option value="">Front end</option>
-                              <option value="">Back end</option>
-                              <option value="">WebApps</option>
-                              <option value="">Sistemas</option>
+                              <option value="frontEnd">Front end</option>
+                              <option value="backEnd">Back end</option>
+                              <option value="webApps">WebApps</option>
+                              <option value="systems">Sistemas</option>
                          </select>
                     </div>
                     <div class="col-xl-8">
@@ -293,9 +294,9 @@
                </div>
                <div class="row">
                     <div class="col p-3">
-                         <label class="form-label text-white" for="">Informações</label>
-                         <textarea class="form-control" name="" id="" cols="30" rows="7"></textarea>
-                         <button class="btn btn-primary my-3">Enviar informações</button>
+                         <label class="form-label text-white" for="informations">Informações</label>
+                         <textarea class="form-control" name="" id="informations" cols="30" rows="7"></textarea>
+                         <button class="btn btn-primary my-3" id="btnSubmit">Enviar informações</button>
                     </div>
                </div>
                <a href="#navbar"><i class="fa-solid fa-angle-up text-white"></i></a>
@@ -317,7 +318,7 @@
      </div>
 
 
-     <!--JavaScript-->
+     <!--JavaScript Bootstrap-->
      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
           integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
           crossorigin="anonymous"></script>
@@ -327,6 +328,15 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
           integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
           crossorigin="anonymous"></script>
+     <script src="js/index.js"></script>
+     <!--AOS Javascript-->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <!--Inicializa a biblioteca de animações AOS-->
+     <script>
+          AOS.init();
+     </script>
+
 </body>
 
 </html>
