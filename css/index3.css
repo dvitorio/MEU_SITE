@@ -152,6 +152,7 @@ html{scroll-behavior: smooth}
 #img3,
 #img4{
      background-position: center;
+     background-repeat: no-repeat;
      background-size: contain;
 }
 
