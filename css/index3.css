@@ -10,7 +10,7 @@ html{scroll-behavior: smooth}
 }
 
 .principalContainer{
-     background-color: #111111 !important;
+     background-color: #242222 !important;
      min-height: 100vh;
      width: 100vw;
 }
@@ -31,6 +31,7 @@ html{scroll-behavior: smooth}
 
 .coverSite{
      background-color: #242222 !important;
+     border-bottom: 5px solid rgb(28, 27, 27);
      max-width: 100vw;
      min-height: 85vh;
 }
@@ -67,7 +68,9 @@ html{scroll-behavior: smooth}
 
 .whoIAm{
      background-color: #242222 !important;
+     border-bottom: 5px solid rgb(28, 27, 27);
      min-height: 80vh;
+     width: 100vw;
 }
 
 .whoIAm p{
@@ -81,8 +84,9 @@ html{scroll-behavior: smooth}
 
 .abilities{
      background-color: #242222 !important;
+     border-bottom: 5px solid rgb(28, 27, 27);
      height: fit-content;
-     max-width: 95vw;
+     width: 100vw;
      min-height: 100vh;
 }
 
@@ -116,27 +120,41 @@ html{scroll-behavior: smooth}
 
 .ability p:hover{color: aqua !important}
 
-.projects{
-     background-color: #242222 !important;
-     min-height: 100vh;
-     max-width: 100vw;
-}
-
-.projects .carousel{
-     height: 100vh;
-     width: 100vw;
-}
-
-.carousel-item{
-     width: 100vw;
-     height: 100vh;
-}
-
 .experiences{
      background-color: #242222 !important;
-     width: 90vw;
+     border-bottom: 5px solid rgb(28, 27, 27);
      min-height: 80vh;
+     width: 100vw;
 }
+
+.projects{
+     width: 100vw;
+     height: 100vh;
+     border-bottom: 5px solid rgb(28, 27, 27);
+}
+
+.carousel{height: 100vh}
+
+.carousel-item{
+     min-height: 35rem !important;
+}
+
+#img1{background-image: url('/img/calcfin.png')}
+
+#img2{background-image: url('/img/nutriweb2.png')}
+
+#img3{background-image: url('/img/consultaCEP.png')}
+
+#img4{background-image: url('/img/geradorSenha.png')}
+
+#img1,
+#img2,
+#img3,
+#img4{
+     background-position: center;
+     background-size: contain;
+}
+
 
 .experience{
      background-color: #242222 !important;
@@ -158,10 +176,11 @@ html{scroll-behavior: smooth}
 }
 
 .formulario{
-     background-color: #242222 !important;
+     background-color: #333232 !important;
+     border-bottom: 5px solid rgb(28, 27, 27);
      border-radius: 10px;
-     width: 70vw !important;
      min-height: 80vh;
+     width: 70vw !important;
 }
 
 .rodape{
@@ -192,7 +211,6 @@ html{scroll-behavior: smooth}
 
 
 
-
 /*Break points para dispositivos móveis*/
 @media screen and (min-width: 18rem) and (max-width: 53rem) {
      .coverImage{height: 60vh !important}
@@ -207,7 +225,7 @@ html{scroll-behavior: smooth}
           margin: auto;
           width: 99vw !important;
      }
-
+     
      .ability{max-width: 100vw}
 
      .experiences{
