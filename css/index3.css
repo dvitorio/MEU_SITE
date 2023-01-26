@@ -147,10 +147,10 @@ html{scroll-behavior: smooth}
 
 #img4{background-image: url('/img/geradorSenha.png')}
 
-#img1,
-#img2,
-#img3,
-#img4{
+#img1, #img1 img
+#img2, #img2 img
+#img3, #img3 img
+#img4, #img4 img{
      background-position: center;
      background-repeat: no-repeat;
      background-size: contain;
