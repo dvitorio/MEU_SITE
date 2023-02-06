@@ -15,7 +15,9 @@ html{scroll-behavior: smooth}
      width: 100vw;
 }
 
-.navbar{background-color: #000000 !important}
+.navbar{
+     background-color: #000000 !important;
+}
 
 .myPhoto{
      height: 13rem;
@@ -133,9 +135,13 @@ html{scroll-behavior: smooth}
      border-bottom: 5px solid rgb(28, 27, 27);
 }
 
-.carousel{height: 100vh}
+.carousel{
+     height: 100vh;
+}
 
 .carousel-item{
+     background-position: center;
+     background-size: contain;
      min-height: 35rem !important;
 }
 
